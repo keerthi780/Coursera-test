@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floating FIGURES</title>
+	<style type="text/css">
+		div{
+			background-color: #00FFFF;
+		}
+		.p{
+			width: 50px;
+			height: 50px;
+			margin-right:5px;
+			border: 2px solid black;
+			
+		}
+		#p1{
+			background-color: brown;
+			float: left;
+		}
+		#p2{
+			background-color: seagreen;
+			float: right;
+		}
+		#p3{
+			background-color: lightblue;
+			clear: both;
+			float: left;
+		}
+		#p4{
+			background-color: yellow;
+			float: right;
+		}
+		section{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<h1>Floating Elements</h1>
+	<div>
+<P class=p id=p1></P>
+<P class=p id=p2></P>
+<P class=p id=p3></P>
+<P class=p id=p4></P>
+<section>This is regular content continuing after the paragraph boxes</section>
+</div>
+</body>
+</html>
