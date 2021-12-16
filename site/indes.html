@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Module 2 Handson</title>
 	<style type="text/css">
 		*{
@@ -13,10 +16,10 @@
 		div{
 			border: 1px solid black;
             background-color: lightgreen;
-            margin-right: auto;
-            margin-left: auto;
+            margin: 0px 5px 5px 5px;
             color: black;
 		}
+		
 		h1{
 			text-align: center;
 			margin: 25px;
@@ -51,6 +54,9 @@
   width: 100%;
 
 }
+p{
+	clear:both;
+}
 
 @media(min-width: 992px){
 			.col-lg-2 {
@@ -64,15 +70,20 @@
 		width: 50%;
 		float: left;
 	}
-	</style>
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+	
 }
+</style>
 </head>
 <body>
 	<h1>Our Menu</h1>
 	<div class="row">
-<div class="col-lg-2 col-md-2 "><h3 class="ha1">Chicken</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-<div class="col-lg-2 col-md-2"><h3 class="ha2">Beef</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-<div class="col-lg-2 col-md-2"><h3 class="ha3">Sushi</h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+<div class="col-lg-2 col-md-2 "><h3 class="ha1">Chicken</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="col-lg-2 col-md-2"><h3 class="ha2">Beef</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+<div class="col-lg-2 col-md-12"><h3 class="ha3">Sushi</h3><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 </div>
 </body>
 </html>
